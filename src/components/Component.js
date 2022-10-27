@@ -36,7 +36,7 @@ export default function Component() {
     <>
       <div className="component" id="component">
         <picture className="component__star">
-          <source media="(max-width: 768px)" srcSet={starMobile} />
+          <source media="(max-width: 400px)" srcSet={starMobile} />
           <img src={star} alt="star-icon"></img>
         </picture>
 

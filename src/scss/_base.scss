@@ -14,7 +14,7 @@ $font-primary: "Overpass";
 
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
-    @media (max-width: 48em) {
+    @media (max-width: 25em) {
       @content;
     }
   }

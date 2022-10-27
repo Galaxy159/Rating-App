@@ -24,7 +24,7 @@ body {
   background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
   border-radius: 3rem;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .container {
     width: 32.7rem;
     height: 36rem;
@@ -52,7 +52,7 @@ body {
   display: grid;
   margin-bottom: 19.5rem;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .component {
     padding: 2.4rem;
   }
@@ -66,7 +66,7 @@ body {
   border-radius: 50%;
   margin-bottom: 3.4rem;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .component__star {
     margin-bottom: 2rem;
     width: 4rem;
@@ -80,7 +80,7 @@ body {
   line-height: 3.5rem;
   color: #ffffff;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .component__headline {
     font-size: 2.4rem;
   }
@@ -92,7 +92,7 @@ body {
   color: #959eac;
   margin-bottom: 2.5rem;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .component__text {
     margin-bottom: 2rem;
     font-size: 1.4rem;
@@ -108,7 +108,7 @@ body {
       -ms-user-select: none;
           user-select: none;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .component__rating {
     gap: 1.8rem;
     margin-bottom: 2.4rem;
@@ -135,7 +135,7 @@ body {
   background-color: #7c8798;
   color: #ffffff;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .component__rating--number {
     height: 4.2rem;
     width: 4.2rem;
@@ -160,7 +160,7 @@ body {
   background-color: #ffffff;
   color: #fb7413;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .component__submit {
     padding: 1.2rem 10.8rem;
     font-size: 1.4rem;
@@ -179,7 +179,7 @@ body {
   padding: 4.5rem 4.5rem;
   margin-bottom: 19.5rem;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .message {
     padding: 3.4rem 2.4rem;
   }
@@ -187,7 +187,7 @@ body {
 .message__img {
   margin-bottom: 2.5rem;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .message__img {
     margin-bottom: 2rem;
   }
@@ -202,7 +202,7 @@ body {
   border-radius: 2.25rem;
   margin-bottom: 3.9rem;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .message__selected {
     width: 16.8rem;
     height: 3.2rem;
@@ -217,7 +217,7 @@ body {
   color: #ffffff;
   margin-bottom: 1rem;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .message__headline {
     font-size: 2.4rem;
     margin-bottom: 1rem;
@@ -228,7 +228,7 @@ body {
   font-weight: 400;
   line-height: 2.4rem;
 }
-@media (max-width: 48em) {
+@media (max-width: 25em) {
   .message__text {
     line-height: 2.2rem;
     font-size: 1.4rem;
