@@ -1,0 +1,236 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.5rem;
+  background-color: #131518;
+}
+
+.container {
+  width: 41.2rem;
+  height: 41.6rem;
+  margin: 19.5rem auto;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+  border-radius: 3rem;
+}
+@media (max-width: 48em) {
+  .container {
+    width: 32.7rem;
+    height: 36rem;
+    margin: 15.4rem auto;
+    border-radius: 1.5rem;
+  }
+}
+
+.hide {
+  display: none !important;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+.component {
+  padding: 3.2rem;
+  display: grid;
+  margin-bottom: 19.5rem;
+}
+@media (max-width: 48em) {
+  .component {
+    padding: 2.4rem;
+  }
+}
+.component__star {
+  display: grid;
+  justify-content: center;
+  background-color: #252d37;
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  margin-bottom: 3.4rem;
+}
+@media (max-width: 48em) {
+  .component__star {
+    margin-bottom: 2rem;
+    width: 4rem;
+    height: 4rem;
+  }
+}
+.component__headline {
+  margin-bottom: 1rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  color: #ffffff;
+}
+@media (max-width: 48em) {
+  .component__headline {
+    font-size: 2.4rem;
+  }
+}
+.component__text {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: #959eac;
+  margin-bottom: 2.5rem;
+}
+@media (max-width: 48em) {
+  .component__text {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+}
+.component__rating {
+  display: flex;
+  gap: 2.2rem;
+  margin-bottom: 3.2rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+@media (max-width: 48em) {
+  .component__rating {
+    gap: 1.8rem;
+    margin-bottom: 2.4rem;
+  }
+}
+.component__rating--number {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #252d37;
+  height: 5.1rem;
+  width: 5.1rem;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.2px;
+  color: #7c8798;
+  cursor: url(./images/Pointer.svg), auto;
+  transition: all 0.2s;
+}
+.component__rating--number:hover,
+.component__rating--number :active {
+  background-color: #7c8798;
+  color: #ffffff;
+}
+@media (max-width: 48em) {
+  .component__rating--number {
+    height: 4.2rem;
+    width: 4.2rem;
+    font-size: 1.4rem;
+  }
+}
+.component__submit {
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 1.5rem 13.8rem;
+  background-color: #fb7413;
+  border-radius: 2.25rem;
+  border: none;
+  cursor: url(./images/Pointer.svg), auto;
+  transition: all 0.2s;
+}
+.component__submit:hover,
+.component__submit :active {
+  background-color: #ffffff;
+  color: #fb7413;
+}
+@media (max-width: 48em) {
+  .component__submit {
+    padding: 1.2rem 10.8rem;
+    font-size: 1.4rem;
+  }
+}
+
+.selected {
+  background-color: #fb7413 !important;
+  color: #ffffff !important;
+}
+
+.message {
+  display: grid;
+  text-align: center;
+  justify-items: center;
+  padding: 3.2rem 4rem 4.5rem 3.2rem;
+  margin-bottom: 19.5rem;
+}
+@media (max-width: 48em) {
+  .message {
+    padding: 3.4rem 2.4rem;
+  }
+}
+.message__img {
+  margin-bottom: 2.5rem;
+}
+@media (max-width: 48em) {
+  .message__img {
+    margin-bottom: 2rem;
+  }
+}
+.message__selected {
+  display: grid;
+  align-items: center;
+  color: #fb7413;
+  background-color: #262e38;
+  width: 19.3rem;
+  height: 3.2rem;
+  border-radius: 2.25rem;
+  margin-bottom: 3.9rem;
+}
+@media (max-width: 48em) {
+  .message__selected {
+    width: 16.8rem;
+    height: 3.2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+  }
+}
+.message__headline {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+@media (max-width: 48em) {
+  .message__headline {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+}
+.message__text {
+  color: #969fad;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+@media (max-width: 48em) {
+  .message__text {
+    line-height: 2.2rem;
+    font-size: 1.4rem;
+  }
+}/*# sourceMappingURL=App.css.map */
