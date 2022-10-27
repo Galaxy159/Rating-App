@@ -6,7 +6,7 @@ export default function Message() {
     <>
       <div className="message hide" id="message">
         <picture className="message__img">
-          <source media="(max-width: 400px)" srcSet={thankYouMobile} />
+          <source media="(max-width: 480px)" srcSet={thankYouMobile} />
           <img src={thankYou} alt="Thank you"></img>
         </picture>
 
