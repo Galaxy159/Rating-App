@@ -134,7 +134,7 @@ body {
 }
 .component__rating--number:hover,
 .component__rating--number :active {
-  background-color: #7c8798;
+  background-color: #fb7413;
   color: #ffffff;
 }
 @media (max-width: 30em) {
@@ -170,7 +170,7 @@ body {
 }
 
 .selected {
-  background-color: #fb7413 !important;
+  background-color: #7c8798 !important;
   color: #ffffff !important;
 }
 

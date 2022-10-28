@@ -29,7 +29,7 @@ export default function Component() {
   }
 
   function handleClickSubmit() {
-    setIsSubmit((isSubmit) => !isSubmit);
+    prevRating && setIsSubmit((isSubmit) => !isSubmit);
   }
 
   return (
