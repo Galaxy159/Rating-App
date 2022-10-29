@@ -9,7 +9,7 @@ function App() {
       <div className="container">
         <Component />
         <Message />
-        <Attribution />
+        {/* <Attribution /> */}
       </div>
     </>
   );
