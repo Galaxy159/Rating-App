@@ -6,7 +6,14 @@ export default function Attribution() {
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
         </a>
-        . Coded by <a href="#">Galaxy159</a>.
+        . Coded by{" "}
+        <a
+          href="https://www.frontendmentor.io/profile/Galaxy159"
+          target="_blank"
+        >
+          Galaxy159
+        </a>
+        .
       </footer>
     </>
   );
