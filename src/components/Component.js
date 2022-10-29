@@ -34,7 +34,7 @@ export default function Component() {
 
   return (
     <>
-      <div className="component" id="component">
+      <main className="component" id="component">
         <picture className="component__star">
           <source media="(max-width: 480px)" srcSet={starMobile} />
           <img src={star} alt="star-icon"></img>
@@ -65,7 +65,7 @@ export default function Component() {
         <button onClick={handleClickSubmit} className="component__submit">
           SUBMIT
         </button>
-      </div>
+      </main>
     </>
   );
 }
