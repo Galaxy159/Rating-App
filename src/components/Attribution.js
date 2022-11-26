@@ -8,10 +8,11 @@ export default function Attribution() {
         </a>
         . Coded by{" "}
         <a
-          href="https://www.frontendmentor.io/profile/Galaxy159"
+          href="https://www.braunguitar.net"
           target="_blank"
+          rel="noreferrer noopener"
         >
-          Galaxy159
+          מורה לגיטרה ברחובות
         </a>
         .
       </footer>
